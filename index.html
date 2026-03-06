@@ -1,150 +1,176 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legiscan Pro | Asesoría Fiscal, Laboral y Contable en Canarias</title>
-    <meta name="description" content="Asesoría fiscal, laboral, contable y mercantil en Las Palmas. Certificados ISO 9001. Gestoría integral para empresas y autónomos.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LegiScan Pro | Asesoría Fiscal, Laboral y Contable en Canarias</title>
+<meta name="description" content="Asesoría fiscal, laboral y contable de confianza en Canarias desde 2009. Más de 500 clientes satisfechos.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>html{scroll-behavior:smooth}.gradient-hero{background:linear-gradient(135deg,#0c4a6e 0%,#0284c7 100%)}</style>
 </head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <i class="fas fa-shield-alt"></i>
-                <span>Legiscan<span class="pro">Pro</span></span>
-            </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
-                <li><a href="#servicios" class="nav-link">Servicios</a></li>
-                <li><a href="#calculadora" class="nav-link">Calculadora IGIC</a></li>
-                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
-                <li><a href="#contacto" class="nav-link">Contacto</a></li>
-                <li><a href="https://suasor.legiscan.eu" target="_blank" class="nav-link portal-link">
-                    <i class="fas fa-user-circle"></i> Portal Clientes
-                </a></li>
-            </ul>
-            <div class="hamburger" id="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+<body class="font-sans text-gray-700 antialiased">
 
-    <!-- Hero Section -->
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <div class="hero-badge">
-                <i class="fas fa-certificate"></i>
-                <span>Certificados ISO 9001</span>
-            </div>
-            <h1>Tu asesoría integral en <span class="gradient-text">Canarias</span></h1>
-            <p class="hero-subtitle">
-                Hacemos fácil lo complejo. Fiscal, laboral, contable y mercantil 
-                para empresas, autónomos y profesionales.
-            </p>
-            <div class="hero-buttons">
-                <a href="#contacto" class="btn btn-primary">
-                    <i class="fas fa-calendar-check"></i> Solicitar cita
-                </a>
-                <a href="https://suasor.legiscan.eu" target="_blank" class="btn btn-secondary">
-                    <i class="fas fa-sign-in-alt"></i> Acceder al portal
-                </a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-number">15+</span>
-                    <span class="stat-label">Años de experiencia</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">500+</span>
-                    <span class="stat-label">Clientes satisfechos</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">24/7</span>
-                    <span class="stat-label">Portal online</span>
-                </div>
-            </div>
-        </div>
-        <div class="hero-image">
-            <div class="floating-card card-1">
-                <i class="fas fa-check-circle"></i>
-                <span>Gestión fiscal</span>
-            </div>
-            <div class="floating-card card-2">
-                <i class="fas fa-users"></i>
-                <span>Nóminas</span>
-            </div>
-            <div class="floating-card card-3">
-                <i class="fas fa-chart-line"></i>
-                <span>Contabilidad</span>
-            </div>
-        </div>
-    </section>
+<!-- Nav -->
+<nav class="fixed w-full bg-white/95 backdrop-blur shadow-sm z-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between h-20 items-center">
+<a href="#inicio" class="flex items-center space-x-3">
+<div class="w-10 h-10 bg-sky-600 rounded-xl flex items-center justify-center">
+<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+</div>
+<span class="text-2xl font-bold text-gray-900">LegiScan<span class="text-sky-600">Pro</span></span>
+</a>
+<div class="hidden md:flex items-center space-x-8">
+<a href="#inicio" class="text-gray-600 hover:text-sky-600 font-medium">Inicio</a>
+<a href="#servicios" class="text-gray-600 hover:text-sky-600 font-medium">Servicios</a>
+<a href="#ventajas" class="text-gray-600 hover:text-sky-600 font-medium">Ventajas</a>
+<a href="#contacto" class="bg-sky-600 text-white px-6 py-2.5 rounded-full font-medium hover:bg-sky-700">Contactar</a>
+</div>
+</div>
+</div>
+</nav>
 
-    <!-- Servicios -->
-    <section id="servicios" class="servicios">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Nuestros Servicios</span>
-                <h2>Todo lo que tu empresa necesita</h2>
-                <p>Servicios integrales pensados para cada etapa de tu negocio</p>
-            </div>
-            <div class="servicios-grid">
-                <div class="servicio-card" data-aos="fade-up">
-                    <div class="servicio-icon">
-                        <i class="fas fa-calculator"></i>
-                    </div>
-                    <h3>Gestión Fiscal</h3>
-                    <p>Planificación fiscal estratégica, presentación de impuestos y optimización tributaria para minimizar tu carga fiscal.</p>
-                    <ul class="servicio-features">
-                        <li><i class="fas fa-check"></i> Declaraciones de IVA</li>
-                        <li><i class="fas fa-check"></i> IGIC Canarias</li>
-                        <li><i class="fas fa-check"></i> IRPF autónomos</li>
-                        <li><i class="fas fa-check"></i> Impuesto de Sociedades</li>
-                        <li><i class="fas fa-check"></i> Planificación fiscal</li>
-                    </ul>
-                </div>
-                <div class="servicio-card featured" data-aos="fade-up" data-aos-delay="100">
-                    <div class="servicio-badge">Más demandado</div>
-                    <div class="servicio-icon">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <h3>Gestión Laboral</h3>
-                    <p>Nóminas, contratos, altas y bajas de trabajadores. Gestión completa de tu equipo humano.</p>
-                    <ul class="servicio-features">
-                        <li><i class="fas fa-check"></i> Cálculo de nóminas</li>
-                        <li><i class="fas fa-check"></i> Contratos laborales</li>
-                        <li><i class="fas fa-check"></i> Altas y bajas SS</li>
-                        <li><i class="fas fa-check"></i> Seguridad Social</li>
-                        <li><i class="fas fa-check"></i> Inspecciones</li>
-                    </ul>
-                </div>
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="servicio-icon">
-                        <i class="fas fa-book"></i>
-                    </div>
-                    <h3>Contabilidad</h3>
-                    <p>Contabilidad general, registro de operaciones y elaboración de estados financieros.</p>
-                    <ul class="servicio-features">
-                        <li><i class="fas fa-check"></i> Libros oficiales</li>
-                        <li><i class="fas fa-check"></i> Cuentas anuales</li>
-                        <li><i class="fas fa-check"></i> Balance y PyG</li>
-                        <li><i class="fas fa-check"></i> Informes periódicos</li>
-                        <li><i class="fas fa-check"></i> Auditoría</li>
-                    </ul>
-                </div>
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="servicio-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <h3>Gestión Mercantil</h3>
-                    <p>Constitución de empresas, modificación de estatutos y trámites en el Registro Mercantil.</p>
-                    <ul class="servicio-features">
-                        <li><i class="fas
+<!-- Hero -->
+<section id="inicio" class="min-h-screen flex items-center gradient-hero pt-20">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="text-white space-y-8">
+<div class="inline-flex items-center space-x-2 bg-white/20 rounded-full px-4 py-2">
+<span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
+<span class="text-sm font-medium">Atención personalizada 24/7</span>
+</div>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">Tu asesoría fiscal y laboral de <span class="text-sky-100">confianza</span> en Canarias</h1>
+<p class="text-xl text-sky-100">Más de 15 años ayudando a empresas y autónomos. Especialistas en IGIC y normativa canaria.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="#contacto" class="bg-white text-sky-700 px-8 py-4 rounded-full font-semibold text-center shadow-xl">Consulta gratuita</a>
+<a href="#servicios" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-center hover:bg-white/10">Ver servicios</a>
+</div>
+</div>
+<div class="hidden lg:block bg-white rounded-3xl p-8 shadow-2xl">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">Solicita información</h3>
+<form class="space-y-4" onsubmit="event.preventDefault();this.innerHTML='<p class=text-green-600>¡Gracias! Te contactamos pronto.</p>';">
+<input type="text" placeholder="Nombre completo" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-sky-500 outline-none">
+<input type="email" placeholder="Email" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-sky-500 outline-none">
+<select class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-sky-500 outline-none">
+<option>Servicio de interés</option>
+<option>Gestión Fiscal</option>
+<option>Gestión Laboral</option>
+<option>Contabilidad</option>
+</select>
+<button type="submit" class="w-full bg-sky-600 text-white py-4 rounded-xl font-semibold hover:bg-sky-700">Solicitar consulta</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Servicios -->
+<section id="servicios" class="py-24 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Nuestros Servicios</h2>
+<p class="text-xl text-gray-600">Todo lo que tu empresa necesita</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+<div class="w-14 h-14 bg-sky-600 rounded-2xl flex items-center justify-center mb-6">
+<svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Gestión Fiscal</h3>
+<ul class="text-gray-600 space-y-2 text-sm">
+<li>• Declaraciones IVA/IGIC</li>
+<li>• IRPF y Sociedades</li>
+<li>• Planificación fiscal</li>
+</ul>
+<span class="inline-block mt-4 px-3 py-1 bg-sky-100 text-sky-700 text-xs rounded-full">Más demandado</span>
+</div>
+<div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+<div class="w-14 h-14 bg-sky-600 rounded-2xl flex items-center justify-center mb-6">
+<svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Gestión Laboral</h3>
+<ul class="text-gray-600 space-y-2 text-sm">
+<li>• Cálculo de nóminas</li>
+<li>• Contratos y altas SS</li>
+<li>• Seguridad Social</li>
+</ul>
+</div>
+<div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+<div class="w-14 h-14 bg-sky-600 rounded-2xl flex items-center justify-center mb-6">
+<svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Contabilidad</h3>
+<ul class="text-gray-600 space-y-2 text-sm">
+<li>• Libros oficiales</li>
+<li>• Balance y Pérdidas</li>
+<li>• Informes periódicos</li>
+</ul>
+</div>
+<div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+<div class="w-14 h-14 bg-sky-600 rounded-2xl flex items-center justify-center mb-6">
+<svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Gestión Mercantil</h3>
+<ul class="text-gray-600 space-y-2 text-sm">
+<li>• Constitución empresas</li>
+<li>• Modificación estatutos</li>
+<li>• Registro Mercantil</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Ventajas -->
+<section id="ventajas" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">¿Por qué elegirnos?</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-8 text-center">
+<div class="p-6">
+<div class="text-5xl mb-4">⚡</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Respuesta Rápida</h3>
+<p class="text-gray-600">Resolvemos consultas en menos de 24 horas. Atención ágil y personalizada.</p>
+</div>
+<div class="p-6">
+<div class="text-5xl mb-4">🛡️</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Total Confianza</h3>
+<p class="text-gray-600">Más de 500 empresas confían en nosotros. Tu información está segura.</p>
+</div>
+<div class="p-6">
+<div class="text-5xl mb-4">💰</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Optimización Fiscal</h3>
+<p class="text-gray-600">Reducimos legalmente tu carga tributaria. Ahorro garantizado.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="py-20 bg-sky-600">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+<h2 class="text-3xl font-bold text-white mb-4">¿Hablamos?</h2>
+<p class="text-sky-100 mb-8 text-lg">La primera consulta es gratuita y sin compromiso.</p>
+<a href="mailto:info@legiscanpro.com" class="bg-white text-sky-700 px-8 py-4 rounded-full font-semibold inline-block shadow-lg hover:bg-sky-50">Contactar ahora</a>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-400 py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<div class="flex items-center space-x-2 mb-4 md:mb-0">
+<div class="w-8 h-8 bg-sky-600 rounded-lg flex items-center justify-center">
+<svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+</div>
+<span class="text-xl font-bold text-white">LegiScan<span class="text-sky-400">Pro</span></span>
+</div>
+<p class="text-sm">&copy; 2025 LegiScan Pro. Asesoría en Canarias.</p>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
